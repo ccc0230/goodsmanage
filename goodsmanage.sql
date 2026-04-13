@@ -9,6 +9,8 @@ CREATE DATABASE IF NOT EXISTS goodsmanage DEFAULT CHARACTER SET utf8mb4 COLLATE 
 
 USE goodsmanage;
 
+SET FOREIGN_KEY_CHECKS = 0;
+
 -- =============================================
 -- 1. 校区表 (campus)
 -- =============================================
@@ -228,6 +230,8 @@ INSERT INTO goods (sid, goodsname, goodscolor, pictureurl) VALUES
 (1, '手机', '黑色', NULL),
 (2, '平板电脑', '白色', NULL),
 (3, '台灯', '蓝色', NULL);
+
+SET FOREIGN_KEY_CHECKS = 1;
 
 -- =============================================
 -- 完成
