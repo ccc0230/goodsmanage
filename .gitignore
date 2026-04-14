@@ -1,6 +1,8 @@
 # IDE
 .idea/
 *.iml
+.trae/
+.vscode/
 
 # Claude Code
 .claude/
